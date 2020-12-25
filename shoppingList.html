@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shopping List</title>
+        <link rel="stylesheet" href="shoppingList.css">
+    </head>
+    <body>
+        <div id="header-container">
+            <h1>Grocery List</h1>
+        </div>
+        <div id="container">
+            <form onsubmit="return false">
+                <input type="text" id="groceryInput" placeholder="add something..." autocomplete="off">
+            </form>
+            <button id="clearbutton">clear list</button>
+            <ul id="list"></ul>
+        </div>
+        <script src="shoppingList.js"></script>
+    </body>
+</html>

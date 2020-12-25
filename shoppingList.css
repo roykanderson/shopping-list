@@ -1,0 +1,121 @@
+body {
+    background: #dae3de;
+}
+
+#header-container {
+    position: relative;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 120px;
+    /* border: 5px solid #389c5d;
+    border-radius: 15px; */
+}
+
+h1 {
+    position: absolute;
+    float: left;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+
+    font: 55px/1 Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #389c5d;
+}
+
+#container {
+    position: relative;
+    margin: 5px auto;
+    width: 75%;
+    border: 5px solid #94a89c;
+    border-radius: 15px;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+form {
+    margin: 0 auto;
+    width: 75%;
+    margin-left: 55px;
+    display: inline-block;
+}
+
+#clearbutton {
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 21px;
+    margin: 0;
+    width: 10%;
+    height: 55px;
+    background: #94a89c;
+    color: #dae3de;
+    border: none;
+    border-radius: 5px;
+    font: 20px/1 Arial, Helvetica, sans-serif;
+}
+
+#clearbutton:hover {
+    background: #de8776;
+}
+
+#clearbutton:focus {
+    outline: none;
+}
+
+#groceryInput {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 5px;
+    width: 100%;
+
+    font: 55px/1 Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #389c5d;
+
+    background: none;
+    border: 5px solid #abd1bd;
+    border-radius: 15px;
+}
+
+#groceryInput:focus {
+    outline: none;
+}
+
+#groceryInput::placeholder {
+    color: #94a89c;
+}
+
+#groceryInput:focus::placeholder {
+    color: transparent;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 15px;
+    width: 90%;
+    display: block;
+}
+
+li {
+    padding: 0 10px;
+    padding-bottom: 7px;
+    font: 55px/1 Arial, Helvetica, sans-serif;
+    /* font-style: italic; */
+    font-weight: 900;
+    color: #389c5d;
+
+    list-style-type: none;
+}
+
+li:hover {
+    background: #cbd6d0;
+    color: #de8776;
+}
